@@ -27,7 +27,7 @@ public class ParameterTest {
 		driver.findElement(By.xpath("//input[@name=\"userId\"]")).sendKeys(user);
 		driver.findElement(By.xpath("//input[@name=\"password\"]")).sendKeys(password);
 		driver.findElement(By.xpath("//span[@class=\"ng-star-inserted\"]")).click();
-		//driver.close();
+		
 	}
 	
 
